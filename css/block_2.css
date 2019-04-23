@@ -1,0 +1,86 @@
+.blueContainerWall {
+  display: flex;
+  background: no-repeat url(../img/Rectangle.jpg);
+  width: 100%;
+  height: 1150px;
+  background-size: 100% 100%;
+  margin-top: 60px;
+}
+
+.blueContainer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: flex-start;
+  width: 60%;
+  margin-top: 3%;
+  margin-left: 20%;
+}
+
+.blueContainerTitle {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 13px;
+}
+
+.blueContainer a {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 23px;
+  text-decoration-line: underline;
+  color: #E9E9E9;
+  width: 100%;
+  text-align: center;
+}
+
+.tab {
+  overflow: hidden;
+  border: 1px solid #0ACF83;
+  width: 100%;
+}
+
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+  width: 50%;
+}
+
+.tab button:hover {
+  background-color: #11ae72;
+}
+
+.tab button.active {
+  background-color: #0ACF83;
+}
+
+.tabcontent {
+  display: none;
+  border-top: none;
+  width: 100%;
+}
+
+.tabContentItem {
+  display: flex;
+  align-items: center;
+  margin-top: 8px;
+  padding: 12px 0;
+  background: rgba(255, 255, 255, 0.95);;
+}
+
+.tabContentItem_1 {
+  width: 15%;
+  margin: 0 30px;
+}
+
+.tabContentItem_2 {
+  width: 60%;
+}

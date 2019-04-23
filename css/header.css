@@ -1,0 +1,220 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-content: flex-start;
+  align-items: center;
+  /* position: absolute; */
+  width: 100%;
+  height: 600px;
+  background: no-repeat url(../img/banner.jpg);
+  background-size: 100% 100%;
+  background-position: top center;
+}
+
+.logo {
+  right: 75.62%;
+  margin-top: 1%;
+  text-align: center;
+  width: 40%;
+}
+
+.logo img {
+  margin-left: 20%
+}
+
+.navigation {
+  width: 60%;
+}
+
+ul.nav{
+  margin-left: 0px;
+  padding-left: 0px;
+  list-style: none;
+}
+.nav li { 
+  float: left;
+  margin-right: 2%
+}
+ul.nav a {
+  width: 6em;
+  margin: 0 5px;
+  text-decoration: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: normal;
+  text-transform: uppercase;
+}
+/* ul.nav a:hover{
+  background-color: #333;
+  color: #f4f4f4;
+} */
+
+.buttonLenguage {
+  margin-right: 24%;
+  display: table-row;
+}
+
+.button-cover {
+    height: 100px;
+    margin: 20px;
+    background-color: #fff;
+    box-shadow: 0 10px 20px -8px #c5d6d6;
+    border-radius: 4px;
+}
+
+.button {
+    position: relative;
+    top: 50%;
+    width: 74px;
+    height: 36px;
+    margin: -20px auto 0 auto;
+    overflow: hidden;
+}
+
+.checkbox {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 3;
+}
+
+.knobs {
+    z-index: 2;
+}
+
+#button-10 .knobs:before, #button-10 .knobs:after, #button-10 .knobs span {
+    position: absolute;
+    top: 4px;
+    width: 20px;
+    height: 10px;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1;
+    padding: 9px 4px;
+    border-radius: 2px;
+    transition: 0.3s ease all;
+}
+
+#button-10 .knobs:before {
+    content: '';
+    left: 4px;
+    background-color: #0ACF83;
+}
+
+#button-10 .knobs:after {
+    content: 'EN';
+    right: 4px;
+    color: #ffffff;
+}
+
+#button-10 .knobs span {
+    display: inline-block;
+    left: 4px;
+    color: #fff;
+    z-index: 1;
+}
+
+#button-10 .checkbox:checked + .knobs span {
+    color: #ffffff;
+}
+
+#button-10 .checkbox:checked + .knobs:before {
+    left: 42px;
+    background-color: #0ACF83;
+}
+
+#button-10 .checkbox:checked + .knobs:after {
+    color: #fff;
+}
+
+#button-10 .checkbox:checked ~ .layer {
+    background-color: #fcebeb;
+}
+
+
+.logoTitle {
+  display: flex;
+  align-items: center;
+  vertical-align: center;
+  margin-top: 3%;
+  width: 100%;
+}
+
+.logoTitle p {
+  margin: 0 2% 0 20%;
+  width: 50%;
+}
+
+.logoDate{
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: normal;
+  font-size: 16px;
+}
+
+.buttonRegistration {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-left: 20%;
+}
+
+.buttonRegistration button {
+  background-color: #0ACF83;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  cursor: pointer;
+  outline: none;
+}
+
+.buttonRegistration button:hover {
+  background-color: #12df90;
+  color: white;
+}
+
+.headerInformation {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+  width: 100%;
+  margin-top: 8%;
+  margin-left: 17%;
+}
+
+.headerInformationElement {
+  display: flex;
+  justify-content: center;
+  width: 12%;
+  color: #FFFFFF;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  margin-right: 3%;
+  margin-left: 3%;
+}
+
+.line{
+  border-left: 1px solid rgba(255, 255, 255, 0.4);
+  /* transform: rotate(90deg); */
+  width: 0px;
+  /* height: 20px; */
+}

@@ -1,0 +1,71 @@
+.chuvachok {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background: no-repeat url(../img/fon_for_chuvachok.jpg);
+  height: 275px;
+  width: 60%;
+  margin-top: 50px;
+  margin-left: 20%;  
+}
+
+.chuvachokContentLeft {
+  width: 25%;
+  margin-left: 40px;
+}
+
+.chuvachokContentRight {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  text-align: end;
+}
+
+.chuvachokContentRight div {
+  margin-left: 40px;
+}
+  
+.buttonRegistration_2 {
+  background-color: #0ACF83;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  cursor: pointer;
+  outline: none;
+  margin-top: 50px;
+}
+  
+.buttonRegistration_2:hover {
+  background-color: #12df90;
+  color: white;
+}
+
+.result {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background: url(../img/result.jpg);
+  height: 275px;
+  width: 60%;
+  margin-top: 70px;
+  margin-left: 20%; 
+}
+
+.partners {
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+  margin-left: 20%;  
+}
+
+.partnersImages {
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
